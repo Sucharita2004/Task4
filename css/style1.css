@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.left_div{
+    background-image: url("../images/women.jpg");
+    background-color: rgba(245, 39, 221,0.4);
+    /* background-image: linear-gradient(rgba(218, 39, 245, 0.1),rgba(245, 39, 169,0.2)); */
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    float: left;
+    width: 70%;
+    height: 100vh;
+    
+}
+
+.right_div{
+    background-color: white;
+    float: right;
+    width: 30%;
+    height: 100vh;
+    padding: 20px 30px;
+    border:none;
+}
+.forms{
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+}
+input[type="submit"]{
+    /* display: block; */
+    background-image: linear-gradient(#BE27F5,#F527A3);
+    color: white;
+    text-transform:capitalize;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+}
+h2{
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+input[type="text"],input[type="email"],input[type="pwd"]{
+    display: block;
+    width: 80%;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 2px solid rgb(199, 195, 195);
+}
+.last{
+    display: block;
+     font-family: "Roboto", sans-serif;
+    
+   
+}
+::placeholder{
+    color: rgb(209, 203, 203);
+}
+a{
+    padding-left: 50px;
+    text-decoration: none;
+}
